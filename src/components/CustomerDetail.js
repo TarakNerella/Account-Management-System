@@ -20,11 +20,41 @@ const CustomerDetail = () => {
                                 <th scope="col">PAN</th>
                                 <td scope="col">ABCDE1234F</td>
                             </tr>
+                            <tr>
+                                <th scope="col">Account Type</th>
+                                <td scope="col">Savings</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Balance</th>
+                                <td scope="col">1,00,000</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col">
-                    2 of 2
+                <div class="col" style={{ paddingTop: '50px' }}>
+                    <h4>Account Details</h4>
+                    <table class="table" style={{ width: '400px' }}>
+                        <thead>
+                            <tr>
+                                <th scope="col">Account Type</th>
+                                <th scope="col">Balance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Savings</td>
+                                <td>Rs.50,000</td>
+                            </tr>
+                            <tr>
+                                <td>Home Loan</td>
+                                <td>Rs.1,00,000</td>
+                            </tr>
+                            <tr>
+                                <td>Bike Loan</td>
+                                <td>Rs.70,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
